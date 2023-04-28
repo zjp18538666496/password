@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动生成密码</title>
+</head>
+<body>
+<div>
+    <label>
+        <input type="text" id="password" />
+    </label>
+    <button id="copyPassword" data-clipboard-action="copy" data-clipboard-target="#password">复制密码</button>
+    <button id="generateNewPassword">重新生成</button>
+</div>
+</body>
+<script src="plug-in/jquery/jquery.js"></script>
+<script src="plug-in/layer/layer.js"></script> <!-- lay-ui 弹层组件  -->
+<script src="plug-in/clipboard/clipboard.min.js"></script> <!-- 复制文本 -->
+<script src="js/index.js" type="module"></script>
+</html>
