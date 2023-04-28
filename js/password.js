@@ -39,7 +39,7 @@ export default class Password {
         clipboard.on('success', function (e) {
             layer.msg("复制成功");
             setTimeout(function () {
-                layer.msg("密码：" + e.text)
+                layer.msg("复制的密码为：" + e.text)
             }, 1500);
         });
 
